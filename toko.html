@@ -78,42 +78,74 @@
             <!-- Tabs Content -->
             <div class="tab-content" id="pills-tabContent">
                 <!-- Sembako Tab Pane -->
-                <div class="tab-pane fade show active" id="sembako" role="tabpanel" aria-labelledby="pills-sembako-tab">
-                    <div class="row g-4">
-                        <!-- Produk Item -->
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm">
-                                <img src="https://via.placeholder.com/384x192" class="card-img-top" alt="Beras Premium">
-                                <div class="card-body">
-                                    <h5 class="card-title">Beras Premium</h5>
-                                    <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
-                                    <span class="badge bg-warning text-dark">Bestseller</span>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- Sembako Tab Pane -->
+                    <div class="tab-pane fade show active" id="sembako" role="tabpanel" aria-labelledby="pills-sembako-tab">
+                        <div class="row g-4">
+                            <!-- Produk Item -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <div class="image-container">
+                                        <img src="https://via.placeholder.com/384x192" class="card-img-top img-fluid" alt="Beras Premium">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beras Premium</h5>
+                                        <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
+                                        <span class="badge bg-warning text-dark">Bestseller</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Ulangi Produk Item sesuai kebutuhan -->
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm">
-                                <img src="https://via.placeholder.com/384x192" class="card-img-top" alt="Minyak Goreng">
-                                <div class="card-body">
-                                    <h5 class="card-title">Minyak Goreng</h5>
-                                    <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
-                                    <span class="badge bg-warning text-dark">Bestseller</span>
+                            <!-- Ulangi Produk Item sesuai kebutuhan -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <div class="image-container">
+                                        <img src="foto/minyak.jpg" class="card-img-top img-fluid" alt="Minyak Goreng">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Minyak Goreng</h5>
+                                        <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
+                                        <span class="badge bg-warning text-dark">Bestseller</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm">
-                                <img src="https://via.placeholder.com/384x192" class="card-img-top" alt="Gula Pasir">
-                                <div class="card-body">
-                                    <h5 class="card-title">Gula Pasir</h5>
-                                    <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
-                                    <span class="badge bg-warning text-dark">Bestseller</span>
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm">
+                                    <div class="image-container">
+                                        <img src="foto/gula.jpg" class="card-img-top img-fluid" alt="Gula Pasir">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Gula Pasir</h5>
+                                        <p class="card-text">Kualitas terbaik untuk kebutuhan rumah tangga Anda.</p>
+                                        <span class="badge bg-warning text-dark">Bestseller</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Tab Pane lainnya -->
                 </div>
+                <style>
+                    /* Custom Styles for Image Alignment and Size */
+                    .image-container {
+                        width: 100%;
+                        height: 200px; /* Atur tinggi sesuai kebutuhan */
+                        overflow: hidden;
+                    }
+                
+                    .image-container img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit:contain; /* Memastikan gambar mengisi container tanpa distorsi */
+                    }
+                
+                    /* Optional: Menambahkan hover effect */
+                    .card:hover {
+                        transform: translateY(-5px);
+                        transition: transform 0.3s;
+                    }
+                </style>
+                                
+
                 <!-- Snack Tab Pane -->
                 <div class="tab-pane fade" id="snack" role="tabpanel" aria-labelledby="pills-snack-tab">
                     <div class="row g-4">
